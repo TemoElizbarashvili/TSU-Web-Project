@@ -77,24 +77,28 @@
       <!-- header section end -->
       <!-- contact section start -->
       <div class="contact_section layout_padding">
-        <div class="container">
-          <h1 class="contact_taital">Request A Call Back</h1>
-          <div class="email_text">
-             <div class="form-group">
-                <input type="text" class="email-bt" placeholder="Name" name="Email">
-             </div>
-             <div class="form-group">
-                <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
-             </div>
-             <div class="form-group">
-                <input type="text" class="email-bt" placeholder="Email" name="Email">
-             </div>
-             <div class="form-group">
-                <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-             </div>
-             <div class="send_btn"><a href="#">SEND</a></div>
-          </div>
-        </div>
+         <div class="container">
+            <h1 class="contact_taital">Request A Call Back</h1>
+            <div class="email_text">
+               <form method="POST" action="process_form.php">
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Name" name="name">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Phone Number" name="phone">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Email" name="email">
+                  </div>
+                  <div class="form-group">
+                     <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="message"></textarea>
+                  </div>
+                  <div class="send_btn">
+                     <button type="submit" name="submit">SEND</button>
+                  </div>
+               </form>
+            </div>
+         </div>
       </div>
       <!-- contact section end -->
       <!-- footer section start -->
@@ -121,12 +125,10 @@
          </div>
       </div>
       <!-- footer section end -->
-      <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
             <p class="copyright_text">Capys are the best!</p>
          </div>
       </div>
-      <!-- copyright section end -->
    </body>
 </html>
