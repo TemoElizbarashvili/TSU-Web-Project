@@ -52,8 +52,8 @@ body {
 }
 
 body.dark-mode {
-    background-color: #333; 
-    color: #ffffff; 
+    background-color: #000000 !important; 
+    color: #ffffff !important;
     font-size: 14px;
     line-height: 1.80857;
     font-family: 'Poppins', sans-serif;
