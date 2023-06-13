@@ -254,7 +254,12 @@ button {
     float: left;
     text-align: center;
     padding: 20px 0px 50px 0px;
+    transition: transform 0.3s ease;
 }
+
+.logo:hover {
+    transform: scale(1.2);
+  }
 
 .logo_mobile {
     width: 100%;
@@ -430,7 +435,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #1f1f1f;
+    color: rgb(31, 31, 31);
     margin: 0px;
 }
 
@@ -442,6 +447,7 @@ button {
 
 .services_img {
     width: 100%;
+    height: 450px;
     float: left;
     text-align: center;
 }
@@ -457,7 +463,7 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: rgba(43, 34, 120, 255);
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
